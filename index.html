@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PMP Pathway: Thermo Fisher Workshop, Nov 9–11, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f5f7;--surf:#fff;--ink:#12202b;--mute:#52636f;--line:#d3dce2;--acc:#0f2744;--acc-ink:#f2c14e;--warn:#b4232f;--soft:#e4ebf3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0c1726;--surf:#13243a;--ink:#e8eef5;--mute:#a3b3c5;--line:#294058;--acc:#e3b64f;--acc-ink:#0a1628;--warn:#ff8a93;--soft:#1b2c42}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0c1726;--surf:#13243a;--ink:#e8eef5;--mute:#a3b3c5;--line:#294058;--acc:#e3b64f;--acc-ink:#0a1628;--warn:#ff8a93;--soft:#1b2c42}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Instrument Sans",system-ui,sans-serif}
+a{color:var(--acc)}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.shell{display:grid;grid-template-columns:230px 1fr;min-height:100vh}
+nav{position:sticky;top:0;align-self:start;height:100vh;padding:28px 20px;border-right:1px solid var(--line);background:var(--surf)}
+.brand{font:400 26px/1.1 "Instrument Serif",Georgia,serif;margin:0 0 4px}
+.sub{color:var(--mute);font-size:13px;margin:0 0 24px}
+nav a.l{display:block;padding:9px 12px;border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500;margin-bottom:2px}
+nav a.l[aria-current=page]{background:var(--acc);color:var(--acc-ink)}
+nav a.l:hover:not([aria-current=page]){background:var(--soft)}
+main{padding:44px clamp(20px,5vw,64px) 80px;max-width:940px;width:100%}
+section.pg{display:none}
+section.pg.on{display:block}
+h1{font:400 clamp(34px,5vw,52px)/1.08 "Instrument Serif",Georgia,serif;margin:0 0 14px;letter-spacing:-.01em}
+h2{font:400 28px/1.2 "Instrument Serif",Georgia,serif;margin:44px 0 10px}
+h3{font-size:17px;margin:0 0 4px}
+p{max-width:68ch;margin:0 0 12px}
+.lead{font-size:19px;color:var(--mute)}
+.box{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:16px 0}
+.note{border-left:4px solid var(--warn);background:var(--surf);padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0}
+.tw{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;min-width:520px;background:var(--surf);border:1px solid var(--line)}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;font-size:15px}
+th{background:var(--soft);font-weight:600}
+.bar{display:flex;height:46px;border-radius:8px;overflow:hidden;margin:14px 0 6px;font-weight:600;color:var(--acc-ink)}
+.bar div{display:flex;align-items:center;padding:0 12px}
+.b1{background:var(--acc)}.b2{background:#2c4a5c;color:#fff}.b3{background:#7a5c14;color:#fff}
+@media (prefers-color-scheme:dark){.b2{background:#6d92a8;color:#0a1a1a}.b3{background:#d1a640;color:#1a1200}}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+label{display:block;font-weight:600;margin:12px 0 4px}
+select,input{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%;max-width:420px}
+button{font:inherit;font-weight:600;background:var(--acc);color:var(--acc-ink);border:0;border-radius:6px;padding:10px 18px;cursor:pointer;margin-top:14px}
+#res{margin-top:14px;font-weight:500}
+details{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
+details ul{margin:10px 0 0;padding-left:20px}
+.tag{display:inline-block;background:var(--soft);border-radius:99px;padding:2px 10px;font-size:13px;font-weight:600;margin-right:6px}
+ol.steps{padding-left:22px}ol.steps li{margin-bottom:10px;max-width:68ch}
+@media (max-width:760px){.shell{display:block}nav{position:sticky;height:auto;z-index:5;padding:10px 12px;border-right:0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px;align-items:center;top:0}
+.brand{font-size:20px;width:100%;margin:0}.sub{display:none}nav a.l{padding:6px 10px;margin:0;font-size:14px}main{padding-top:24px}}
+.prog{width:100%;height:10px;accent-color:var(--acc)}
+.chk label,.q label{display:flex;gap:10px;align-items:flex-start;font-weight:400;margin:6px 0}
+.chk input,.q input{width:auto;margin-top:6px}
+.q{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:14px 0}
+.q fieldset{border:0;padding:0;margin:0}
+.q legend{font-weight:600;padding:0;margin-bottom:8px}
+.fb{margin-top:10px}
+.ok{color:var(--acc);font-weight:600}.no{color:var(--warn);font-weight:600}
+.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.by{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--mute);line-height:1.45}
+.by strong{display:block;color:var(--ink);font-size:14px}
+.byl{color:var(--acc);font-weight:600;margin:0 0 12px}
+.foot{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+.foot strong{color:var(--ink)}
+@media (max-width:760px){.by{display:none}}
+.top{background:#0a1628;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:2px clamp(16px,3vw,40px);border-bottom:2px solid #c9a13b}
+.top img{height:68px;width:auto;display:block}
+.top span{color:#c9d3df;font-size:13px;text-align:right;line-height:1.4}
+@media (max-width:760px){.top img{height:52px}.top span{display:none}}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:22px 0}
+.facts div{background:var(--surf);border:1px solid var(--line);border-left:4px solid #c9a13b;border-radius:8px;padding:12px 14px}
+.facts b{display:block;font-size:17px;line-height:1.3}.facts small{color:var(--mute)}
+.pn{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:40px}
+.pn a{padding:10px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surf);text-decoration:none;font-weight:600;color:var(--ink)}
+.pn a:hover{border-color:#c9a13b}
+@media (max-width:760px){nav{flex-wrap:nowrap;overflow-x:auto}nav a.l{white-space:nowrap;flex:none}.brand{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><img src="data:image/png;base64,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" alt="Diamond PMO Consultants: governance, strategy, excellence" width="215" height="68"><span>PMP exam prep workshop<br>for Thermo Fisher Scientific</span></header>
+<div class="shell">
+<nav aria-label="Main">
+<p class="brand">PMP Pathway</p><p class="sub">Thermo Fisher workshop<br>Nov 9–11, 2026</p>
+<a class="l" href="#home">Start here</a>
+<a class="l" href="#apply">The application</a>
+<a class="l" href="#modules">Course modules</a>
+<a class="l" href="#workshop">Workshop schedule</a>
+<a class="l" href="#books">Study map</a>
+<a class="l" href="#progress">My progress</a>
+<a class="l" href="#practice">Practice</a>
+<a class="l" href="#concepts">Key concepts</a>
+<a class="l" href="#faq">FAQ</a>
+<a class="l" href="#exam">The exam</a>
+<p class="by"><strong>Diamond PMO Consultants</strong>Powered by Ibrahim Traore</p>
+</nav>
+<main>
+
+<section class="pg" id="p-home">
+<h1>From this workshop to your exam seat</h1>
+<p class="byl">Diamond PMO Consultants, powered by Ibrahim Traore</p>
+<p class="lead">To sit for the PMP exam you need three things: approved experience, 35 hours of project management training, and an accepted application. This workshop covers the training and helps you finish the application.</p>
+<div class="facts">
+<div><small>Dates</small><b>Nov 9 to 11, 2026</b></div>
+<div><small>Daily hours (draft)</small><b>8:30 AM to 4:30 PM Pacific</b></div>
+<div><small>Location</small><b>Hillsboro, Oregon</b><small>Venue to be confirmed</small></div>
+<div><small>Instructor</small><b>Ibrahim Traore, PMP</b></div>
+</div>
+<div class="box">
+<h2 style="margin-top:0">Check where you stand</h2>
+<label for="edu">Highest education</label>
+<select id="edu">
+<option value="60">Secondary school or equivalent</option>
+<option value="48">Associate degree or technical program (EQF 5)</option>
+<option value="36" selected>Bachelor’s degree or higher</option>
+<option value="24">Bachelor’s or higher from a PMI GAC-accredited program</option>
+</select>
+<label for="mo">Months leading projects in the last 10 years (count overlapping months once)</label>
+<input id="mo" type="number" min="0" max="120" value="30">
+<label for="hr">Project management training hours already completed</label>
+<input id="hr" type="number" min="0" value="0">
+<label for="capm" style="font-weight:500"><input id="capm" type="checkbox" style="width:auto;margin-right:8px">I hold an active CAPM (waives the 35 hours)</label>
+<button id="go" type="button">Check my path</button>
+<div id="res" role="status" aria-live="polite"></div>
+</div>
+<h2>Your route</h2>
+<ol class="steps">
+<li><strong>Confirm eligibility.</strong> Match your education to the experience you need. <a href="#apply">See the rules</a>.</li>
+<li><strong>Attend the workshop.</strong> Three days covering People, Process, and Business Environment. <a href="#modules">See the modules</a>.</li>
+<li><strong>Finish the 35 hours.</strong> The workshop gives about 20.25; plan the rest with Diamond PMO. <a href="#workshop">See why</a>.</li>
+<li><strong>Submit your application</strong> with your experience entries and training record.</li>
+<li><strong>Book and sit the exam.</strong> 180 questions in 240 minutes. <a href="#exam">See the format</a>.</li>
+</ol>
+</section>
+
+<section class="pg" id="p-apply">
+<h1>The application</h1>
+<p class="lead">PMI approves your application before you can book the exam. Prepare to prove everything you write, because applications can be audited.</p>
+<h2>Education and experience</h2>
+<p>All experience must fall within the last 10 years, in a professional setting, and be non-overlapping.</p>
+<div class="tw"><table>
+<tr><th>Education</th><th>Experience leading projects</th></tr>
+<tr><td>Secondary school or equivalent (EQF 4)</td><td>60 months (5 years)</td></tr>
+<tr><td>Associate degree or advanced technical program (EQF 5)</td><td>48 months (4 years)</td></tr>
+<tr><td>Bachelor’s degree or higher, or a formally mapped EQF 6 qualification</td><td>36 months (3 years)</td></tr>
+<tr><td>Bachelor’s or postgraduate degree from a PMI GAC-accredited program</td><td>24 months (2 years)</td></tr>
+</table></div>
+<h2>How months are counted</h2>
+<p>PMI counts calendar months, not projects. If Project I runs January to March and Project II runs February to May, you get five months total (January to May), not seven. Record each project separately, and leave out routine, operational, or administrative tasks.</p>
+<div class="cols">
+<div class="box"><h3>What qualifies</h3><p>Leading and directing a temporary initiative in a professional setting. It can be unpaid.</p></div>
+<div class="box"><h3>What does not</h3><p>School projects, academic research, personal events, and home improvement.</p></div>
+</div>
+<h2>The 35 training hours</h2>
+<p>You need at least 35 hours of project management training that matches the exam content outline. Providers can include PMI Authorized Training Partners, employer programs, universities, and self-paced courses with an end-of-course assessment. One classroom hour counts as one training hour. Books and practice exams alone do not count.</p>
+<p>An active CAPM waives the 35 hours. This workshop is delivered by Diamond PMO, a PMI Authorized Training Partner.</p>
+<h2>If you are audited</h2>
+<p>You will need to document your education and verify your experience and training. Keep your degree records, project dates, supervisor contacts, and the course certificate from this workshop.</p>
+<div class="note"><strong>Tuesday and Wednesday:</strong> Ibrahim reviews each PMP application one on one. Bring your draft experience entries on Tuesday morning.</div>
+<p>If you do not meet the experience yet, CAPM is the route to take first.</p>
+</section>
+
+<section class="pg" id="p-modules">
+<h1>Course modules</h1>
+<p class="lead">The course follows PMI’s July 2026 Exam Content Outline. Each day takes one domain, in order of the exam’s weighting.</p>
+<div class="bar" role="img" aria-label="Exam weighting: People 33 percent, Process 41 percent, Business Environment 26 percent">
+<div class="b1" style="flex:33">People 33%</div><div class="b2" style="flex:41">Process 41%</div><div class="b3" style="flex:26">Business Env. 26%</div></div>
+<p>Predictive, agile, and hybrid approaches appear in all three domains. About 40% of questions are predictive and about 60% are agile or hybrid.</p>
+
+<h2>Day 1: People</h2>
+<details open><summary>What you will learn (8 tasks)</summary><ul>
+<li>Develop a common vision and keep it current</li>
+<li>Manage conflicts and enforce ground rules</li>
+<li>Lead the project team: empower, set expectations, choose a leadership style</li>
+<li>Engage stakeholders and tailor communication to them</li>
+<li>Align and manage stakeholder and customer expectations</li>
+<li>Ensure knowledge transfer</li>
+<li>Plan and manage communication, reporting, and feedback</li>
+</ul></details>
+<p>Day 1 also covers eligibility, the application, and a diagnostic quiz so you know your starting point.</p>
+
+<h2>Day 2: Process</h2>
+<details open><summary>What you will learn (10 tasks)</summary><ul>
+<li>Build an integrated plan and choose predictive, agile, or hybrid delivery</li>
+<li>Define and manage scope</li>
+<li>Deliver value: prioritize, release incrementally, track benefits</li>
+<li>Plan resources, procurement, and finance</li>
+<li>Plan quality, including regulatory compliance and cost of quality</li>
+<li>Plan and manage the schedule, with story points and baselines</li>
+<li>Evaluate project status with metrics and artifacts</li>
+<li>Close the project or phase and transition to operations</li>
+</ul></details>
+
+<h2>Day 3: Business Environment</h2>
+<details open><summary>What you will learn (8 tasks)</summary><ul>
+<li>Establish governance, success metrics, and escalation paths</li>
+<li>Plan and manage compliance (security, health and safety, sustainability, regulatory)</li>
+<li>Manage and control changes</li>
+<li>Remove impediments and manage issues</li>
+<li>Plan and manage risk</li>
+<li>Apply continuous improvement and lessons learned</li>
+<li>Support organizational change</li>
+<li>Evaluate external changes such as regulation, technology, and market</li>
+</ul></details>
+<p>Day 3 closes with a half-length timed practice exam and your personal study plan.</p>
+</section>
+
+<section class="pg" id="p-workshop">
+<h1>Workshop schedule</h1>
+<p class="lead">Thermo Fisher Scientific, Materials and Structural Analysis Division, Hillsboro, Oregon. Instructor: Ibrahim Traore, M.Eng., PMP. Delivered by Diamond PMO Consultants.</p>
+<div class="note">Daily times are a draft until Thermo Fisher confirms them. Venue (Hillsboro campus or a nearby hotel) is still to be confirmed.</div>
+<p><span class="tag">Mon Nov 9</span><span class="tag">Tue Nov 10</span><span class="tag">Wed Nov 11</span> 8:30 AM to 4:30 PM Pacific, with a 45 minute lunch.</p>
+
+<h2>Day 1: Monday, orientation and People</h2>
+<div class="tw"><table>
+<tr><th>Time</th><th>Session</th></tr>
+<tr><td>8:30–9:00</td><td>Welcome, goals, target credential (PMP or CAPM)</td></tr>
+<tr><td>9:00–9:45</td><td>Eligibility and application walkthrough</td></tr>
+<tr><td>9:45–10:30</td><td>How the 2026 exam works</td></tr>
+<tr><td>10:45–12:00</td><td>Diagnostic quiz and review</td></tr>
+<tr><td>12:45–2:30</td><td>People domain, part 1</td></tr>
+<tr><td>2:45–4:00</td><td>People domain, part 2: scenario questions in groups</td></tr>
+<tr><td>4:00–4:30</td><td>Recap; homework: draft your experience entries</td></tr>
+</table></div>
+
+<h2>Day 2: Tuesday, Process and application reviews</h2>
+<div class="tw"><table>
+<tr><th>Time</th><th>Session</th></tr>
+<tr><td>8:30–8:45</td><td>Warm-up: ten questions on Day 1</td></tr>
+<tr><td>8:45–10:30</td><td>Process part 1: scope, schedule, cost, resources, delivery approach</td></tr>
+<tr><td>10:45–12:00</td><td>Process part 2: agile and hybrid practice, team exercise</td></tr>
+<tr><td>12:45–2:30</td><td>Process part 3: risk, quality, procurement, change control, closing</td></tr>
+<tr><td>2:45–3:30</td><td>Timed process scenario practice</td></tr>
+<tr><td>3:30–4:30</td><td>One on one application reviews (about 7 minutes each); others review missed questions</td></tr>
+</table></div>
+
+<h2>Day 3: Wednesday, Business Environment and exam plan</h2>
+<div class="tw"><table>
+<tr><th>Time</th><th>Session</th></tr>
+<tr><td>8:30–10:00</td><td>Business Environment: strategy, value, compliance, change, AI, sustainability</td></tr>
+<tr><td>10:15–12:15</td><td>Timed practice exam, half length, mixed domains</td></tr>
+<tr><td>1:00–2:30</td><td>Answer review on the most missed questions</td></tr>
+<tr><td>2:45–3:45</td><td>Individual study plans; final application review and submission where ready</td></tr>
+<tr><td>3:45–4:15</td><td>Booking steps, test day tips, next steps with Diamond PMO</td></tr>
+<tr><td>4:15–4:30</td><td>Evaluation and contact hour certificates</td></tr>
+</table></div>
+
+<h2>Your contact hours</h2>
+<div class="box"><p>The three days give about 20.25 instructional hours (6.75 a day). PMP applicants need 35, so about 15 hours remain. Diamond PMO will arrange pre-work or follow-up sessions. Certificates cover only the hours you attend, so sign in each day.</p></div>
+<h2>What you receive</h2>
+<ul><li>PMI Authorized PMP Exam Prep materials aligned to the 2026 outline (PMP participants)</li><li>Diagnostic quiz and half-length practice exam with answer keys</li><li>A personal gap list, study plan, and target exam date</li><li>A booking checklist and your contact hour certificate</li></ul>
+</section>
+
+<section class="pg" id="p-books">
+<h1>Study map</h1>
+<p class="lead">Where to read more, by exam area. Page numbers are the printed book pages, taken from each book’s table of contents.</p>
+<div class="note">The exam is built from the Exam Content Outline, not from any single book. PMI notes the outline and the PMBOK Guide differ in structure, so use the books to deepen what the workshop covers, and use the outline to decide what to study.</div>
+<h2>The three books</h2>
+<div class="cols">
+<div class="box"><h3>PMBOK Guide, 8th edition (2025)</h3><p>Two parts. The <strong>Standard</strong> sets out six principles and the project life cycle. The <strong>Guide</strong> covers seven performance domains: Governance, Scope, Schedule, Finance, Stakeholders, Resources, and Risk.</p></div>
+<div class="box"><h3>Agile Practice Guide, 2nd edition</h3><p>Agile values, choosing between predictive, agile, and hybrid life cycles, leading agile teams, and delivery practices such as backlogs and retrospectives.</p></div>
+<div class="box"><h3>Standard for AI in portfolio, program, and project management</h3><p>Principles for using AI on projects: value, risk, governance, ethics, data quality, and how to tailor delivery for AI work.</p></div>
+</div>
+<h2>People domain (33%) · Workshop Day 1</h2>
+<div class="tw"><table>
+<tr><th>Book</th><th>Read</th></tr>
+<tr><td>PMBOK Standard</td><td>2.5 Project management roles (p. 27); 3.6 Be an accountable leader (p. 46); 3.8 Build an empowered culture (p. 53)</td></tr>
+<tr><td>PMBOK Guide</td><td>2.5 Stakeholders domain (p. 67–78); 2.6 Resources domain (p. 79–92)</td></tr>
+<tr><td>Agile Practice Guide</td><td>Ch. 4 Creating an agile environment (p. 39–62): psychological safety, supportive leaders, team composition</td></tr>
+<tr><td>AI Standard</td><td>2.4 People and culture (p. 30); 2.6 Stakeholder engagement (p. 35); 3.1 Managing stakeholder expectations about AI (p. 48)</td></tr>
+</table></div>
+<h2>Process domain (41%) · Workshop Day 2</h2>
+<div class="tw"><table>
+<tr><th>Book</th><th>Read</th></tr>
+<tr><td>PMBOK Standard</td><td>3.4 Focus on value (p. 40); 3.5 Embed quality (p. 43); 4.2–4.3 Development approaches and how to choose (p. 59–68); 4.5 The five focus areas, initiating through closing (p. 69–73)</td></tr>
+<tr><td>PMBOK Guide</td><td>2.2 Scope (p. 35); 2.3 Schedule (p. 47); 2.4 Finance (p. 58); 2.6 Resources (p. 79); Appendix X4 Procurement</td></tr>
+<tr><td>Agile Practice Guide</td><td>Ch. 3 Life cycles and approach selection (p. 17–37); Ch. 5 Delivering in an agile environment (p. 63–83); Appendix X1 Agile procurement and contracts (p. 141)</td></tr>
+<tr><td>AI Standard</td><td>3.2 Defining scope for AI (p. 60); 3.3 Quality and reliability (p. 69); Ch. 4 Life cycle management and tailoring (p. 105)</td></tr>
+</table></div>
+<h2>Business Environment domain (26%) · Workshop Day 3</h2>
+<div class="tw"><table>
+<tr><th>Book</th><th>Read</th></tr>
+<tr><td>PMBOK Standard</td><td>1.3.2 Organizational and project governance (p. 7); 2.2 Project environment (p. 17); 3.7 Integrate sustainability (p. 48)</td></tr>
+<tr><td>PMBOK Guide</td><td>2.1 Governance domain (p. 10–35); 2.7 Risk domain (p. 92–102); Ch. 3 Tailoring (p. 103)</td></tr>
+<tr><td>Agile Practice Guide</td><td>Ch. 6 Organizational considerations for agility (p. 85–108): change management, culture, the PMO</td></tr>
+<tr><td>AI Standard</td><td>2.2 Risk (p. 19); 2.3 Governance and compliance (p. 21); 3.5 Managing AI risks (p. 94); Ch. 7 Ethical and legal considerations (p. 219); Appendix X2 Laws and regulations (p. 243)</td></tr>
+</table></div>
+<h2>Read by exam task</h2>
+<p>Each row is one task from the Exam Content Outline. <strong>Std</strong> is the PMBOK Standard, <strong>Guide</strong> is the PMBOK Guide (process names are in its domain chapter), <strong>Agile</strong> is the Agile Practice Guide, and <strong>AI</strong> is the AI standard. Numbers are book sections, then printed pages.</p>
+
+<h3 style="margin-top:28px">People (33%)</h3>
+<div class="tw"><table>
+<tr><th>Outline task</th><th>PMBOK</th><th>Also read</th></tr>
+<tr><td>1. Develop a common vision</td><td>Guide: Governance › Initiate Project or Phase; Stakeholders › Plan Stakeholder Engagement. Std 3.4 Focus on value (p. 40)</td><td>Agile 5.1 Charter the project and team (p. 63). AI 6.2 Vision and use cases (p. 205)</td></tr>
+<tr><td>2. Manage conflicts</td><td>Guide 2.6 Resources › Lead the Team (p. 79–92). Std 3.8 Empowered culture (p. 53)</td><td>Agile 4.2 Psychological safety (p. 40); 4.3 Supportive leaders (p. 45). AI 2.4 People and culture (p. 30)</td></tr>
+<tr><td>3. Lead the project team</td><td>Guide 2.6 › Lead the Team. Std 2.5 Roles (p. 27); 3.6 Accountable leader (p. 46)</td><td>Agile 4.3–4.4 Leaders and team composition (p. 45–49); 4.7 Team structures (p. 56). AI 2.4 (p. 30)</td></tr>
+<tr><td>4. Engage stakeholders</td><td>Guide 2.5 Stakeholders (p. 67–78): Identify, Plan, Manage Stakeholder Engagement. Std 2.5.4 End users and key stakeholders (p. 33)</td><td>AI 2.6 Stakeholder engagement (p. 35); 3.1 Managing expectations about AI (p. 48)</td></tr>
+<tr><td>5. Align stakeholder expectations</td><td>Guide 2.5 › Plan Stakeholder Engagement; Monitor Stakeholder Engagement. Std 2.1.2 Assessing project success (p. 16)</td><td>Agile 5.2 Common agile practices, reviews and demos (p. 64). AI 3.1 (p. 48)</td></tr>
+<tr><td>6. Manage stakeholder expectations</td><td>Guide 2.5 › Manage and Monitor Stakeholder Engagement</td><td>Agile 5.5 Measurements, value and outcome metrics (p. 75). AI 3.1 (p. 48)</td></tr>
+<tr><td>7. Ensure knowledge transfer</td><td>Guide: Governance › Manage Project Knowledge. Std 2.2.4 Knowledge repositories (p. 21)</td><td>Agile 5.2 Retrospectives and working collaboratively (p. 64)</td></tr>
+<tr><td>8. Plan and manage communication</td><td>Guide 2.5 › Plan, Manage, and Monitor Communications</td><td>Agile 5.5 Reporting to sponsors (p. 75). AI 6.3 Augmenting information flow (p. 208)</td></tr>
+</table></div>
+
+<h3 style="margin-top:28px">Process (41%)</h3>
+<div class="tw"><table>
+<tr><th>Outline task</th><th>PMBOK</th><th>Also read</th></tr>
+<tr><td>1. Integrated plan and delivery approach</td><td>Guide: Governance › Integrate and Align Project Plans; Ch. 3 Tailoring (p. 103). Std 4.2–4.3 Development approaches (p. 59–68); 4.4 Delivery cadence (p. 69)</td><td>Agile 3.10 Selecting life cycles (p. 28); 3.11 Mixing approaches (p. 35). AI 4.1 Predictive, adaptive, hybrid (p. 107)</td></tr>
+<tr><td>2. Scope</td><td>Guide 2.2 Scope (p. 35–46): Elicit and Analyze Requirements, Define Scope, Develop Scope Structure, Validate Scope</td><td>Agile 5.2 Backlog planning and refinement (p. 64). AI 3.2 Defining scope for AI (p. 60)</td></tr>
+<tr><td>3. Value-based delivery</td><td>Std 2.1 Creating value (p. 13); 3.4 Focus on value (p. 40)</td><td>Agile 5.2 Shipping increments (p. 64); 5.5 Value metrics (p. 75). AI 2.1 Strategic value (p. 17); 6.1 Business case (p. 203)</td></tr>
+<tr><td>4. Resources</td><td>Guide 2.6 Resources (p. 79–92): Plan, Estimate, Acquire, Monitor and Control Resourcing</td><td>Agile 4.4 Team composition (p. 49)</td></tr>
+<tr><td>5. Procurement</td><td>Guide: Governance › Plan Sourcing Strategy; Appendix X4 Procurement</td><td>Agile Appendix X1 Agile procurement and contracts (p. 141)</td></tr>
+<tr><td>6. Finance</td><td>Guide 2.4 Finance (p. 58–66): Plan Financial Management, Estimate Costs, Develop Budget, Monitor and Control Finances</td><td>AI 6.1 Business case (p. 203)</td></tr>
+<tr><td>7. Quality</td><td>Std 3.5 Embed quality (p. 43). Guide: Governance › Manage Quality Assurance</td><td>Agile 5.2 Execution practices (p. 64). AI 3.3 Quality and reliability (p. 69); 2.8 Data quality (p. 42)</td></tr>
+<tr><td>8. Schedule</td><td>Guide 2.3 Schedule (p. 47–57): Plan Schedule Management, Develop Schedule, Monitor and Control Schedule</td><td>Agile 5.2 Iteration planning (p. 64); 5.5 Flow metrics and predictability (p. 75)</td></tr>
+<tr><td>9. Evaluate project status</td><td>Guide: Governance › Monitor and Control Project Performance. Std 4.5.4 Monitoring and controlling (p. 72)</td><td>Agile 5.5 Measurements in agile projects (p. 75)</td></tr>
+<tr><td>10. Project closure</td><td>Guide: Governance › Close Project or Phase. Std 4.5.5 Closing (p. 72)</td><td>Agile 5.2 Retrospectives (p. 64)</td></tr>
+</table></div>
+
+<h3 style="margin-top:28px">Business Environment (26%)</h3>
+<div class="tw"><table>
+<tr><th>Outline task</th><th>PMBOK</th><th>Also read</th></tr>
+<tr><td>1. Project governance</td><td>Guide 2.1 Governance (p. 10–35): models (p. 11), metrics and mechanisms (p. 13). Std 1.3.2 (p. 7); 2.2.2 Process assets (p. 19)</td><td>Agile 6.6 Agile and the PMO (p. 99). AI 2.3 Governance and compliance (p. 21)</td></tr>
+<tr><td>2. Compliance</td><td>Std 2.2.1 Environmental factors (p. 18); 2.2.3 Policies and procedures (p. 20); 3.7 Sustainability (p. 48)</td><td>AI 2.3 (p. 21); Ch. 7 Ethical and legal (p. 219); Appendix X2 Laws (p. 243)</td></tr>
+<tr><td>3. Manage and control changes</td><td>Guide: Governance › Assess and Implement Changes</td><td>Agile 5.2 Backlog refinement (p. 64)</td></tr>
+<tr><td>4. Impediments and issues</td><td>Guide 2.7 Risk › Implement Risk Responses, Monitor Risks; Governance › Manage Project Execution</td><td>Agile 4.3 Supportive leaders (p. 45); 5.4 Troubleshooting agile challenges (p. 72). AI 3.5 (p. 94)</td></tr>
+<tr><td>5. Plan and manage risk</td><td>Guide 2.7 Risk (p. 92–102): Plan Risk Management, Identify Risks, Perform Risk Analysis, Plan and Implement Risk Responses, Monitor Risks</td><td>Agile 3.10 Complexity and uncertainty (p. 28). AI 2.2 Risk (p. 19); 3.5 (p. 94); 6.7 (p. 214)</td></tr>
+<tr><td>6. Continuous improvement</td><td>Guide 3.4.4 Ongoing improvement (p. 109). Std 2.2.2 Process assets (p. 19); 2.2.4 Knowledge repositories (p. 21)</td><td>Agile 5.2 Retrospectives (p. 64); 6.8 Maintaining agility (p. 104). AI 2.7 Optimization (p. 37)</td></tr>
+<tr><td>7. Organizational change</td><td>Std 2.2.5 Organizational structures (p. 21)</td><td>Agile 6.1 Change management (p. 85); 6.2 Culture (p. 88); 6.3 Team structures (p. 91). AI 6.4 Cultural fit (p. 209)</td></tr>
+<tr><td>8. External environment changes</td><td>Std 2.2 Project environment (p. 17); 2.2.1 Environmental factors (p. 18). Guide 2.7 › Identify Risks</td><td>Agile 1.2–1.3 Social and strategic changes (p. 3); Ch. 7 (p. 109). AI Appendix X2 Laws (p. 243)</td></tr>
+</table></div>
+<p style="color:var(--mute);font-size:14px">Where the Agile Guide pages show only a chapter section, the topic sits inside that section; use its table of contents to find it.</p>
+
+<h2>How to use the books</h2>
+<ol class="steps">
+<li>After your Day 1 diagnostic, find your weakest domain and read only the rows above for it.</li>
+<li>Read the agile and hybrid sections even if your work is predictive. About 60% of exam questions are agile or hybrid.</li>
+<li>After each practice question you miss, find the section here that covers it and read that section before moving on.</li>
+</ol>
+<p style="color:var(--mute);font-size:14px">PMI publishes these books under license, so this page points to sections instead of reproducing them. PMI members can download the PMBOK Guide from PMI.org.</p>
+</section>
+
+<section class="pg" id="p-progress">
+<h1>My progress</h1>
+<p class="lead">Tick each exam task once you have studied it and can explain it in your own words. Use the <a href='#books'>study map</a> to find what to read.</p>
+<div id='trk'></div>
+<p style='color:var(--mute);font-size:14px'>Your ticks are saved in this browser only. They are not shared with your instructor.</p>
+<button type='button' id='rst' class='ghost'>Clear my progress</button>
+</section>
+
+<section class="pg" id="p-practice">
+<h1>Practice questions</h1>
+<p class="lead">Six scenario questions in the style of the exam, two per domain. Pick an answer, check it, and read why. Each explanation tells you which outline task and book section to review.</p>
+<div id='quiz'></div>
+<p id='sc' role='status' aria-live='polite' style='font-weight:600'></p>
+<button type='button' id='qr' class='ghost'>Start again</button>
+<p style='color:var(--mute);font-size:14px;margin-top:16px'>These are original practice questions for learning, not real exam questions.</p>
+</section>
+
+<section class="pg" id="p-concepts">
+<h1>Key concepts</h1>
+<p class="lead">The ideas that appear across all three domains, in plain language. Use them as a quick review, then go to the <a href='#books'>study map</a> for depth.</p>
+
+<h2>Choosing an approach</h2>
+<p>About 40% of exam questions are predictive and about 60% are agile or hybrid, so you need to recognize which approach a scenario is using.</p>
+<div class='tw'><table>
+<tr><th></th><th>Predictive</th><th>Adaptive (agile)</th><th>Hybrid</th></tr>
+<tr><td>Fits when</td><td>Scope can be settled early; work is large, regulated, or costly to redo</td><td>Requirements and the solution are uncertain and likely to change</td><td>Some parts are uncertain and others are stable, or deliverables can be split across teams</td></tr>
+<tr><td>Planning</td><td>Most planning is done up front</td><td>A clear vision up front; requirements are refined as work proceeds</td><td>Predictive planning for stable parts, adaptive for uncertain parts</td></tr>
+<tr><td>Change</td><td>Handled through formal change control and reviews between phases</td><td>Expected; the backlog is reprioritized using stakeholder feedback</td><td>Formal for baselined parts, flexible for backlog parts</td></tr>
+<tr><td>Delivery</td><td>Phases, sometimes delivered in increments</td><td>Short iterations, often 1 to 4 weeks, each ending with a demonstration</td><td>Depends on the part of the work</td></tr>
+<tr><td>Example</td><td>A medical device with regulatory phase gates</td><td>Software with changing customer needs</td><td>A custom home: uncertain design, predictable build</td></tr>
+</table></div>
+<p>Read more: Standard 4.2 to 4.3 (p. 59–68); Agile Guide 3.10 (p. 28).</p>
+
+<h2>PMBOK Guide, 8th edition, at a glance</h2>
+<div class='cols'>
+<div class='box'><h3>Six principles</h3><ul style='margin:0;padding-left:18px'><li>Adopt a holistic view</li><li>Focus on value</li><li>Embed quality into processes and deliverables</li><li>Be an accountable leader</li><li>Integrate sustainability in all project areas</li><li>Build an empowered culture</li></ul></div>
+<div class='box'><h3>Seven performance domains</h3><ul style='margin:0;padding-left:18px'><li>Governance</li><li>Scope</li><li>Schedule</li><li>Finance</li><li>Stakeholders</li><li>Resources</li><li>Risk</li></ul></div>
+<div class='box'><h3>Five focus areas</h3><ul style='margin:0;padding-left:18px'><li>Initiating</li><li>Planning</li><li>Executing</li><li>Monitoring and controlling</li><li>Closing</li></ul></div>
+</div>
+<p>Remember that the exam follows the three outline domains (People, Process, Business Environment), not these seven. The two structures overlap, which is why the <a href='#books'>study map</a> links each outline task to the right PMBOK sections.</p>
+
+<h2>Agile essentials</h2>
+<p>Agile favors people and collaboration over heavy process, a working product over thick documentation, working with the customer over contract negotiation, and responding to change over following a fixed plan. The common practices in the Agile Practice Guide (section 5.2, p. 64):</p>
+<ul>
+<li><strong>Backlog planning and refinement:</strong> keep the list of work ordered by value and clarify the next items.</li>
+<li><strong>Iteration planning:</strong> the team chooses what it can finish in the next short cycle.</li>
+<li><strong>Daily coordination:</strong> a short meeting to share progress and surface blockers.</li>
+<li><strong>Demonstrations or reviews:</strong> show finished work and gather stakeholder feedback.</li>
+<li><strong>Retrospectives:</strong> the team inspects how it works and agrees on improvements.</li>
+<li><strong>Shipping increments:</strong> release usable pieces early so value arrives sooner.</li>
+</ul>
+<p>A servant leader on an agile team removes impediments and creates safety for the team to speak up (Agile Guide 4.2 and 4.3, p. 40–45).</p>
+
+<h2>Earned value cheat sheet</h2>
+<p>Applies mostly to predictive work. The full table is in the PMBOK Guide, Table 5-1 (p. 207). PV is planned value, EV is earned value, AC is actual cost, and BAC is budget at completion.</p>
+<div class='tw'><table>
+<tr><th>Measure</th><th>Formula</th><th>How to read it</th></tr>
+<tr><td>Cost variance (CV)</td><td>EV − AC</td><td>Positive means under budget</td></tr>
+<tr><td>Schedule variance (SV)</td><td>EV − PV</td><td>Positive means ahead of schedule</td></tr>
+<tr><td>Cost performance index (CPI)</td><td>EV ÷ AC</td><td>Above 1 means under budget</td></tr>
+<tr><td>Schedule performance index (SPI)</td><td>EV ÷ PV</td><td>Above 1 means ahead of schedule</td></tr>
+<tr><td>Estimate at completion (EAC)</td><td>BAC ÷ CPI</td><td>Forecast if current cost performance continues</td></tr>
+<tr><td>Estimate to complete (ETC)</td><td>EAC − AC</td><td>Cost still to spend</td></tr>
+<tr><td>Variance at completion (VAC)</td><td>BAC − EAC</td><td>Positive means finishing under budget</td></tr>
+<tr><td>To-complete performance index (TCPI)</td><td>(BAC − EV) ÷ (BAC − AC)</td><td>Efficiency needed to finish within BAC</td></tr>
+</table></div>
+
+<h2>AI on projects</h2>
+<p>The 2026 outline adds AI. The PMI AI standard sets out eight principles for using AI in portfolios, programs, and projects:</p>
+<div class='tw'><table>
+<tr><th>Principle</th><th>What it asks of you</th></tr>
+<tr><td>Strategic value</td><td>Use AI where it serves business goals</td></tr>
+<tr><td>Risk</td><td>Identify and manage AI-specific risks and uncertainty</td></tr>
+<tr><td>Governance and compliance</td><td>Put rules, oversight, and legal compliance around AI use</td></tr>
+<tr><td>People and culture</td><td>Prepare people and the culture for working with AI</td></tr>
+<tr><td>Ethics and professional responsibility</td><td>Use AI fairly, transparently, and responsibly</td></tr>
+<tr><td>Stakeholder engagement</td><td>Set honest expectations about what AI can and cannot do</td></tr>
+<tr><td>Optimization and innovation</td><td>Keep improving how AI is used</td></tr>
+<tr><td>Data quality</td><td>Make sure the data behind AI is accurate and fit for use</td></tr>
+</table></div>
+<p>Read more: AI Standard, Chapter 2 (p. 13–44).</p>
+
+<h2>Terms to know</h2>
+<dl>
+<dt><strong>Organizational process assets (OPAs)</strong></dt><dd>Your organization’s policies, templates, and lessons learned that a project can reuse.</dd>
+<dt><strong>Enterprise environmental factors</strong></dt><dd>Conditions outside the team’s control that affect the project, such as regulations, culture, and market.</dd>
+<dt><strong>Baseline</strong></dt><dd>The approved version of scope, schedule, or cost that you measure progress against.</dd>
+<dt><strong>Tailoring</strong></dt><dd>Adapting the approach and processes to fit the project and organization.</dd>
+<dt><strong>Backlog</strong></dt><dd>An ordered list of work still to do, reprioritized as you learn.</dd>
+<dt><strong>Iteration and increment</strong></dt><dd>An iteration is a short work cycle; an increment is a usable piece of the product delivered.</dd>
+<dt><strong>Risk, issue, impediment</strong></dt><dd>A risk may happen; an issue has happened; an impediment blocks the team’s progress.</dd>
+<dt><strong>Change control</strong></dt><dd>The process for reviewing, approving, and recording changes to baselined work.</dd>
+<dt><strong>Retrospective</strong></dt><dd>A team meeting to review how the work went and agree on improvements.</dd>
+<dt><strong>Governance</strong></dt><dd>The structure, rules, and oversight that guide decisions and escalation on a project.</dd>
+</dl>
+</section>
+
+<section class="pg" id="p-faq">
+<h1>Questions and answers</h1>
+<p class="lead">Quick answers about the application, the workshop, and the exam. Open a question to read the answer.</p>
+<h2>Application</h2>
+<details><summary>Do I have to use this workshop for my 35 hours?</summary><p>No. Training can come from several providers, including PMI Authorized Training Partners, employers, universities, and self-paced courses with an end-of-course assessment. This workshop counts, but it provides about 20.25 hours, so you need about 15 more.</p></details>
+<details><summary>Can I count books or practice exams as training hours?</summary><p>No. Books and practice exams alone are not accepted as commercial training.</p></details>
+<details><summary>I hold an active CAPM. Do I still need the 35 hours?</summary><p>No. An active CAPM gives you a 35-hour credit, as long as you meet the education and experience requirements.</p></details>
+<details><summary>What if two of my projects overlapped?</summary><p>PMI counts calendar months once. Two projects running in the same months count only for those months.</p></details>
+<details><summary>Does school or personal project experience count?</summary><p>No. School projects, academic research, personal events, and home projects do not qualify. Experience must be leading and directing projects in a professional setting, within the last 10 years.</p></details>
+<details><summary>What happens if my application is audited?</summary><p>You must provide documents that verify your education and experience, and your training is also subject to audit. Keep records of your degree, project dates, and course certificates.</p></details>
+<h2>The workshop</h2>
+<details><summary>What should I bring on Tuesday?</summary><p>Your draft PMP application experience entries, started as Monday’s homework. Ibrahim reviews each application one on one, about 7 minutes each.</p></details>
+<details><summary>Why does attendance matter?</summary><p>Certificates cover only the hours you actually attend, and sign-in sheets support them. Sign in every day.</p></details>
+<details><summary>When do I receive my certificate?</summary><p>Wednesday afternoon, at the close of the workshop, together with the course evaluation.</p></details>
+<details><summary>Is the schedule final?</summary><p>Not yet. The daily times (8:30 AM to 4:30 PM Pacific) and the venue are still being confirmed with Thermo Fisher.</p></details>
+<h2>The exam</h2>
+<details><summary>How long is the exam and how many questions are there?</summary><p>180 questions in 240 minutes. 170 are scored and 10 are unscored pretest questions mixed in. There are two 10-minute breaks.</p></details>
+<details><summary>Can I go back to questions after a break?</summary><p>No. Once you review your answers and start a break, you cannot return to the previous section.</p></details>
+<details><summary>Which question types appear only at a test center?</summary><p>Matching, enhanced matching, point and click, and pull-down list. Case or scenario, graphic-based, and multiple-choice questions appear in every format.</p></details>
+<details><summary>Can I take it online?</summary><p>Yes, with a proctor. It requires system checks and a longer check-in, and you may be asked to show ID again after a break.</p></details>
+<details><summary>What if I do not pass?</summary><p>You can attempt it up to three times within one year. After three attempts, wait one year before reapplying.</p></details>
+<details><summary>How do I keep the certification?</summary><p>Earn 60 professional development units every three years and pay the renewal fee.</p></details>
+</section>
+
+<section class="pg" id="p-exam">
+<h1>The exam</h1>
+<p class="lead">The 2026 PMP exam tests how you apply project management in realistic situations, not how well you recall definitions.</p>
+<div class="cols">
+<div class="box"><h3>180 questions</h3><p>170 scored plus 10 unscored pretest questions, mixed throughout.</p></div>
+<div class="box"><h3>240 minutes</h3><p>Two 10-minute breaks. The first comes after the case-study section; you cannot go back after a break.</p></div>
+</div>
+<h2>Question types</h2>
+<div class="tw"><table>
+<tr><th>Type</th><th>What to expect</th></tr>
+<tr><td>Case or scenario (new)</td><td>A detailed situation, sometimes with charts, followed by a series of questions</td></tr>
+<tr><td>Graphic-based (new)</td><td>Interpret a chart, diagram, or table, then answer</td></tr>
+<tr><td>Multiple choice and multiple response</td><td>One or several correct answers</td></tr>
+<tr><td>Matching, enhanced matching, point and click, pull-down</td><td>Drag, click, or select. Test center only</td></tr>
+</table></div>
+<h2>How to take it</h2>
+<p>Take it at a Pearson VUE test center (recommended) or online with a proctor, which needs system checks and a longer check-in.</p>
+<h2>If you do not pass</h2>
+<p>You may attempt the exam up to three times within your one-year eligibility period. After three attempts, wait one year before reapplying. If the year ends first, you reapply with no waiting period.</p>
+<h2>After you pass</h2>
+<p>Earn 60 professional development units every three years and pay the renewal fee.</p>
+<div class="note">Be careful with anyone who guarantees you will pass. PMI investigates misleading claims.</div>
+<p style="color:var(--mute);font-size:14px">Source: PMI PMP Examination Content Outline, July 2026.</p>
+</section>
+
+<div class="pn" id="pn"></div>
+<footer class="foot"><p><strong>Diamond PMO Consultants</strong>, a PMI Authorized Training Partner. Powered by <strong>Ibrahim Traore</strong>, M.Eng., PMP, Quantrex Controls LLC.</p><p>Prepared for Thermo Fisher Scientific, Materials and Structural Analysis Division, Hillsboro, Oregon. Study references are based on PMI publications.</p></footer>
+</main></div>
+<script>
+(function(){
+var pages=["home","apply","modules","workshop","books","progress","practice","concepts","faq","exam"];
+function show(n){
+var h=n||(location.hash||"#home").slice(1);if(pages.indexOf(h)<0)h="home";
+pages.forEach(function(p){document.getElementById("p-"+p).classList.toggle("on",p===h)});
+document.querySelectorAll("nav a.l").forEach(function(a){
+if(a.getAttribute("href")==="#"+h)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+window.scrollTo(0,0);
+var L={home:'Start here',apply:'The application',modules:'Course modules',workshop:'Workshop schedule',books:'Study map',progress:'My progress',practice:'Practice',concepts:'Key concepts',faq:'FAQ',exam:'The exam'},i=pages.indexOf(h),pn=document.getElementById('pn');
+pn.innerHTML=(i>0?'<a href="#'+pages[i-1]+'">Back: '+L[pages[i-1]]+'</a>':'<span></span>')+(i<pages.length-1?'<a href="#'+pages[i+1]+'">Next: '+L[pages[i+1]]+'</a>':'');
+}
+window.addEventListener("hashchange",function(){show()});show();
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;var n=a.getAttribute('href').slice(1);if(pages.indexOf(n)<0)return;e.preventDefault();try{history.replaceState(null,'','#'+n)}catch(x){}show(n)});
+document.getElementById("go").addEventListener("click",function(){
+var need=+document.getElementById("edu").value,mo=+document.getElementById("mo").value||0,
+hr=+document.getElementById("hr").value||0,capm=document.getElementById("capm").checked,out=[];
+if(mo>=need)out.push("Experience: you meet the "+need+" months required.");
+else out.push("Experience: you are "+(need-mo)+" months short of the "+need+" required. CAPM may be your first step.");
+if(capm)out.push("Training: your active CAPM waives the 35 hours.");
+else{var left=Math.max(0,35-hr-20.25);
+out.push(left>0?"Training: with 20.25 workshop hours you would still need about "+left.toFixed(2)+" more.":"Training: your prior hours plus the workshop reach 35.");}
+document.getElementById("res").innerHTML=out.join("<br>");
+});
+var DOM={'People':['Develop a common vision','Manage conflicts','Lead the project team','Engage stakeholders','Align stakeholder expectations','Manage stakeholder expectations','Ensure knowledge transfer','Plan and manage communication'],'Process':['Integrated plan and delivery approach','Scope','Value-based delivery','Resources','Procurement','Finance','Quality','Schedule','Evaluate project status','Project closure'],'Business Environment':['Project governance','Compliance','Manage and control changes','Impediments and issues','Plan and manage risk','Continuous improvement','Organizational change','External environment changes']};
+function ld(){try{return JSON.parse(localStorage.getItem('pmpp')||'{}')}catch(e){return {}}}
+function sv(){try{localStorage.setItem('pmpp',JSON.stringify(ST))}catch(e){}}
+var ST=ld(),box=document.getElementById('trk');
+function draw(){var h='';Object.keys(DOM).forEach(function(d){var n=0;DOM[d].forEach(function(t,i){if(ST[d+i])n++});h+='<h3 style=\'margin-top:24px\'>'+d+' <span class=tag>'+n+' of '+DOM[d].length+'</span></h3><progress class=prog max='+DOM[d].length+' value='+n+' aria-label=\''+d+' progress\'></progress><div class=chk>';DOM[d].forEach(function(t,i){h+='<label><input type=checkbox data-k=\''+d+i+'\''+(ST[d+i]?' checked':'')+'>'+(i+1)+'. '+t+'</label>'});h+='</div>'});box.innerHTML=h}
+box.addEventListener('change',function(e){var k=e.target.getAttribute('data-k');if(!k)return;ST[k]=e.target.checked;sv();draw();Array.prototype.forEach.call(box.querySelectorAll('input'),function(x){if(x.getAttribute('data-k')===k)x.focus()})});
+document.getElementById('rst').addEventListener('click',function(){ST={};sv();draw()});
+draw();
+var Q=[
+{d:'People',q:'Two team members disagree sharply about how to build a feature, and the discussion is getting heated. What should you do first?',o:['Escalate to the sponsor right away','Choose the solution yourself and tell both to follow it','Talk with each person to find the source of the disagreement, then facilitate an agreed resolution','Wait and let the team sort it out'],a:2,e:'Find the source and context of the conflict before choosing a resolution strategy. Review People task 2 (Guide 2.6 Lead the Team; Agile Guide 4.2, p. 40).'},
+{d:'People',q:'A key stakeholder has stopped attending reviews, and their expectations seem to be drifting from the project objectives. What is the best next step?',o:['Send them more detailed status reports','Move them to the low-interest group on the stakeholder register','Ask the sponsor to replace them','Review the engagement plan and talk with them to learn what has changed in their needs and expectations'],a:3,e:'Re-analyze the stakeholder and align expectations through direct discussion. Review People tasks 4 to 6 (Guide 2.5 Stakeholders, p. 67 to 78).'},
+{d:'Process',q:'A project has unclear requirements, frequent change is expected, and the customer can give feedback every week. Which approach fits best?',o:['Predictive, with a full baseline before work starts','Outsource the work to reduce uncertainty','Wait until requirements are final before starting','Adaptive, with short iterations and regular customer feedback'],a:3,e:'High uncertainty with frequent feedback favors an adaptive approach. Review Process task 1 (Standard 4.2 to 4.3, p. 59 to 68; Agile Guide 3.10, p. 28).'},
+{d:'Process',q:'A predictive project reports SPI = 0.8 and CPI = 1.1. What does this tell you?',o:['Ahead of schedule and over budget','Behind schedule and over budget','Behind schedule and under budget','On schedule and on budget'],a:2,e:'SPI below 1 means behind schedule. CPI above 1 means under budget. Review Process tasks 6 and 8 (Guide 2.4 Finance and 2.3 Schedule).'},
+{d:'Business Environment',q:'Midway through the project, a new regulation will affect one of your deliverables. What should you do first?',o:['Continue as planned and address it at closing','Assess the impact on scope and compliance, then take it through change control','Change the deliverable now and report afterward','Tell the team to ignore it until an audit'],a:1,e:'Assess the external change, then manage it through the change process. Review Business Environment tasks 2, 3 and 8 (Guide: Assess and Implement Changes).'},
+{d:'Business Environment',q:'A risk on your register has just happened. What is the right response?',o:['Treat it as an issue: assess the impact, act with stakeholders, and update the logs','Close the risk entry as resolved','Wait for the next scheduled risk review','Pass it to the sponsor without analysis'],a:0,e:'A risk that occurs becomes an issue that you manage. Review Business Environment tasks 4 and 5 (Guide 2.7 Risk, p. 92 to 102).'}
+];
+var qb=document.getElementById('quiz'),done={},good=0;
+function qd(){done={};good=0;var h='';Q.forEach(function(q,i){h+='<div class=q><fieldset><legend>'+(i+1)+'. '+q.q+' <span class=tag>'+q.d+'</span></legend>';q.o.forEach(function(o,j){h+='<label><input type=radio name=q'+i+' value='+j+'>'+o+'</label>'});h+='<button type=button data-q='+i+'>Check answer</button><div class=fb id=f'+i+' role=status aria-live=polite></div></fieldset></div>'});qb.innerHTML=h;document.getElementById('sc').textContent=''}
+qb.addEventListener('click',function(e){var i=e.target.getAttribute('data-q');if(i===null)return;var q=Q[i],f=document.getElementById('f'+i),r=qb.querySelector('input[name=q'+i+']:checked');if(!r){f.textContent='Choose an answer first.';return}if(done[i])return;done[i]=1;var ok=+r.value===q.a;if(ok)good++;f.innerHTML=ok?'<span class=ok>Correct.</span> '+q.e:'<span class=no>Not quite.</span> The best answer is: '+q.o[q.a]+'. '+q.e;var n=Object.keys(done).length;document.getElementById('sc').textContent='Score: '+good+' of '+n+' answered ('+Q.length+' questions in total).'});
+document.getElementById('qr').addEventListener('click',qd);
+qd();
+})();
+</script>
+</body>
+</html>
